@@ -92,7 +92,7 @@ void softmax_regression_epoch_cpp(const float *X, const unsigned char *y,
           for(size_t j=0; j<k; j++){
             theta[l*k+j] -= lr * gradient[l][j];
           }
-        }
+        } 
 
     }
     /// END YOUR CODE
